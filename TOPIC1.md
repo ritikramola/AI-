@@ -34,12 +34,12 @@ You can combine computer vision and language models to create a multi-modal mode
 
 #### Common uses of computer vision include:
 
-Auto-captioning or tag-generation for photographs.
-Visual search.
-Monitoring stock levels or identifying items for checkout in retail scenarios.
-Security video monitoring.
-Authentication through facial recognition.
-Robotics and self-driving vehicles.
+- Auto-captioning or tag-generation for photographs.
+- Visual search.
+- Monitoring stock levels or identifying items for checkout in retail scenarios.
+- Security video monitoring.
+- Authentication through facial recognition.
+- Robotics and self-driving vehicles.
 
 
 ## Speech
@@ -47,19 +47,17 @@ Robotics and self-driving vehicles.
 ### Key points to understand about speech include:
 
 - Speech recognition is the ability of AI to "hear" and interpret speech. Usually this capability takes the form of speech-to-text (where the audio signal for the speech is transcribed into text).
-
 - Speech synthesis is the ability of AI to vocalize words as spoken language. Usually this capability takes the form of text-to-speech in which information in text format is converted into an audible signal.
-
 - AI speech technology is evolving rapidly to handle challenges like ignoring background noise, detecting interruptions, and generating increasingly expressive and human-like voices.
 
 ### AI speech scenarios
 
 #### Common uses of AI speech technologies include:
 
-Personal AI assistants in phones, computers, or household devices with which you interact by talking.
-Automated transcription of calls or meetings.
-Automating audio descriptions of video or text.
-Automated speech translation between languages.
+- Personal AI assistants in phones, computers, or household devices with which you interact by talking.
+- Automated transcription of calls or meetings.
+- Automating audio descriptions of video or text.
+- Automated speech translation between languages.
 
 ## Natural Language Processing
 
@@ -88,3 +86,35 @@ Common uses of NLP technologies include:
 
 - Implementing chatbots that can answer frequently asked questions or orchestrate predictable conversational dialogs that don't require the complexity of generative AI.
 
+## Extract data and insights
+
+### Key points to understand about using AI to extract data and insights include:
+
+- The basis for most document analysis solutions is a computer vision technology called optical character recognition (OCR).
+- While an OCR model can identify the location of text in an image, more advanced models can also interpret individual values in the document - and so extract specific fields.
+- While most data extraction models have historically focused on extracting fields from text-based forms, more advanced models that can extract information from audio recording, images, and videos are becoming more readily available.
+
+### Data and insight extraction scenarios
+
+#### Common uses of AI to extract data and insights include:
+
+- Automated processing of forms and other documents in a business process - for example, processing an expense claim.
+- Large-scale digitization of data from paper forms. For example, scanning and archiving census records.
+- Indexing documents for search.
+- Identifying key points and follow-up actions from meeting transcripts or recordings.
+
+## Responsible AI
+
+- **Fairness**: AI models are trained using data, which is generally sourced and selected by humans. There's substantial risk that the data selection criteria, or the data itself reflects unconscious bias that may cause a model to produce discriminatory outputs. AI developers need to take care to minimize bias in training data and test AI systems for fairness.
+- **Reliability and safety**: AI is based on probabilistic models, it is not infallible. AI-powered applications need to take this into account and mitigate risks accordingly.
+- **Privacy and security**: Models are trained using data, which may include personal information. AI developers have a responsibility to ensure that the training data is kept secure, and that the trained models themselves can't be used to reveal private personal or organizational details.
+- **Inclusiveness**: The potential of AI to improve lives and drive success should be open to everyone. AI developers should strive to ensure that their solutions don't exclude some users.
+- **Transparency**: AI can sometimes seem like "magic", but it's important to make users aware of how the system works and any potential limitations it may have.
+- **Accountability**: Ultimately, the people and organizations that develop and distribute AI solutions are accountable for their actions. It's important for organizations developing AI models and applications to define and apply a framework of governance to help ensure that they apply responsible AI principles to their work.
+### Responsible AI examples
+
+- An AI-powered college admissions system should be tested to ensure it evaluates all applications fairly, taking into account relevant academic criteria but avoiding unfounded discrimination based on irrelevant demographic factors.
+- An AI-powered robotic solution that uses computer vision to detect objects should avoid unintentional harm or damage. One way to accomplish this goal is to use probability values to determine "confidence" in object identification before interacting with physical objects, and avoid any action if the confidence level is below a specific threshold.
+- A facial identification system used in an airport or other secure area should delete personal images that are used for temporary access as soon as they're no longer required. Additionally, safeguards should prevent the images being made accessible to operators or users who have no need to view them.
+- A web-based chatbot that offers speech-based interaction should also generate text captions to avoid making the system unusable for users with a hearing impairment.
+- A bank that uses an AI-based loan-approval application should disclose the use of AI, and describe features of the data on which it was trained (without revealing confidential information).
